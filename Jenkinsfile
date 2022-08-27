@@ -2,7 +2,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "hello node-express"
+                echo "hello node-express"    
             }
         }
     }
