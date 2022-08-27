@@ -3,7 +3,6 @@ pipeline {
         stage('build') {
             steps {
                 echo "hello node-express"
-                npm install
             }
         }
     }
